@@ -33,4 +33,4 @@ latest_posts:
 
 I am an MSc student in Robotics at ETH Zürich, advised by Prof. Marco Hutter at the Robotic Systems Lab. I received my BSc in Computer Science from ETH Zürich and also spent a semester at Northwestern University in the US.
 
-My research interests lie in reinforcement learning for embodied AI, as well as computer vision and brain-machine interface applications. Currently, I am working on RL fine-tuning for the ANYmal quadruped at the Robotic Systems Lab.
+My research interests lie in embodied AI, computer vision and brain-machine interface applications. Currently, I am working on RL fine-tuning for the ANYmal quadruped at the Robotic Systems Lab.
