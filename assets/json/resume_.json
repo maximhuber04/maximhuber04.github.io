@@ -1,0 +1,108 @@
+{
+  "about": {
+    "name": "Maxim Huber",
+    "email": "maximhuber@student.ethz.ch",
+    "languages": "German, English, French",
+    "location": {
+      "city": "Zürich",
+      "countryCode": "CH",
+      "region": "Switzerland"
+    },
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "maximhuber04",
+        "url": "https://github.com/maximhuber04"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "maxim-huber",
+        "url": "https://linkedin.com/in/maximhuber"
+      }
+    ]
+  },
+  "education": [
+    {
+      "institution": "ETH Zürich",
+      "studyType": "MSc Robotics, Systems and Control",
+      "startDate": "2025-09-01",
+      "endDate": "",
+      "score": "",
+      "summary": "Supported by the Swiss Study Foundation",
+      "location": "Zurich"
+    },
+    {
+      "institution": "ETH Zürich",
+      "studyType": "BSc Computer Science",
+      "startDate": "2021-09-01",
+      "endDate": "2024-07-01",
+      "score": "5.5/6.0"
+    },
+    {
+      "institution": "Northwestern University",
+      "studyType": "Exchange Semester",
+      "startDate": "2023-09-01",
+      "endDate": "2023-12-31",
+      "score": "4.0/4.0"
+    },
+    {
+      "institution": "Kantonsschule Wattwil",
+      "studyType": "Swiss Matura, Economics and Law (bilingual in English)",
+      "startDate": "2017-08-01",
+      "endDate": "2021-06-30",
+      "score": "5.3/6.0"
+    }
+  ],
+  "work": [
+    {
+      "name": "Swiss Armed Forces",
+      "position": "Grenadier (Special Forces Command)",
+      "startDate": "2025-01-01",
+      "endDate": "2025-06-30",
+      "location": "Isone, Switzerland"
+    },
+    {
+      "name": "Rieter AG",
+      "position": "Machine Learning Intern",
+      "startDate": "2024-07-01",
+      "endDate": "2024-12-31",
+      "location": "Winterthur, Switzerland"
+    },
+    {
+      "name": "ETH Zürich",
+      "position": "Teaching Assistant",
+      "startDate": "2022-09-01",
+      "endDate": "2024-06-30",
+      "location": "Zürich, Switzerland"
+    },
+    {
+      "name": "Bain & Company",
+      "position": "STEM Mentoring Program Mentee",
+      "startDate": "2024-07-01",
+      "endDate": "2025-06-30",
+      "location": "Zürich, Switzerland"
+    },
+    {
+      "name": "Baumann Federn",
+      "position": "Engineering Intern",
+      "startDate": "2021-07-01",
+      "endDate": "2021-09-30",
+      "location": "Ermenswil, Switzerland"
+    },
+    {
+      "name": "Fintool",
+      "position": "Video Editor",
+      "startDate": "2021-07-01",
+      "endDate": "2021-10-31",
+      "location": "Zürich, Switzerland"
+    }
+  ],
+  "research": [
+    {
+      "name": "Bachelor’s Thesis",
+      "publisher": "ETH Zürich, DISCO Lab (Prof. Roger Wattenhofer)",
+      "releaseDate": "2024-07-01",
+      "summary": "Compute-Efficient Pretraining of Large EEG Models (Grade: 6.0/6.0)"
+    }
+  ]
+}
