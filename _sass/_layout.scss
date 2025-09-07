@@ -2,19 +2,48 @@
  * Content
  ******************************************************************************/
 
+/* Sticky footer: footer at bottom on short pages, scrolls on long ones */
+html, body {
+  height: 100%;
+}
+
 body {
-  padding-bottom: 70px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+
+  /* keep your theme colors */
   color: var(--global-text-color);
   background-color: var(--global-bg-color);
 
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    scroll-margin-top: 66px;
-  }
+  /* keep the heading scroll offset */
+  h1, h2, h3, h4, h5, h6 { scroll-margin-top: 66px; }
+}
+
+/* Same height as Bootstrap’s default navbar (56px) */
+footer {
+  height: 56px;
+  display: flex;
+  align-items: center;   /* vertical centering */
+  justify-content: center; /* horizontal centering */
+  padding: 0;            /* remove extra padding */
+  line-height: 1.2;
+}
+
+footer .social {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/* main content grows to push footer down */
+body > main {
+  flex: 1 0 auto;
+}
+
+/* footer sits at the bottom when content is short */
+body > footer {
+  margin-top: auto;
+  position: static !important; /* ensure not fixed */
 }
 
 body.fixed-top-nav {
@@ -22,10 +51,11 @@ body.fixed-top-nav {
   padding-top: 56px;
 }
 
-body.sticky-bottom-footer {
-  // Remove padding below footer.
-  padding-bottom: 0;
-}
+// NOTE Maxim Huber edit
+// body.sticky-bottom-footer {
+//   // Remove padding below footer.
+//   padding-bottom: 0;
+// }
 
 .container {
   max-width: $max-content-width;
